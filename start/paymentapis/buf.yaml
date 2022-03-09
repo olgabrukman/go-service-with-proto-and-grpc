@@ -1,0 +1,11 @@
+version: v1
+name: buf.build/olgabrukman/paymentapis
+deps:
+  - buf.build/googleapis/googleapis
+  - buf.build/olgabrukman/paymentapis
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
